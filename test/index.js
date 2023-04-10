@@ -12,6 +12,12 @@ describe("isPalindrome", () => {
   it("returns true for 'a'", () => {
     expect(isPalindrome("a")).to.be.true;
   });
+  it("returns true for 'mom'", () => {
+    expect(isPalindrome("mom")).to.be.true;
+  });
+  it("returns true for 'wow'", () => {
+    expect(isPalindrome("wow")).to.be.true;
+  });
   it("returns false for 'robot'", () => {
     expect(isPalindrome("robot")).to.be.false;
   });
